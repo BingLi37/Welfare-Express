@@ -36,7 +36,7 @@ One sentence describing what this deals roundup is about.
 - Note 1
 - Note 2
 
-## Affiliate Links
+## Related Links
 
-- [Platform A](https://example.com/aff/xxx)
-- [Platform B](https://example.com/aff/xxx)
+- [Platform A](https://example.com)
+- [Platform B](https://example.com)

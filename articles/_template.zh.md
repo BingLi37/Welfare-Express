@@ -36,7 +36,7 @@
 - 提示 1
 - 提示 2
 
-## 推广链接
+## 相关链接
 
-- [平台 A 推广](https://example.com/aff/xxx)
-- [平台 B 推广](https://example.com/aff/xxx)
+- [平台 A](https://example.com)
+- [平台 B](https://example.com)
