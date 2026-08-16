@@ -12,6 +12,7 @@ A daily roundup of deals and freebies, so you never miss a coupon, discount, or 
 
 ## Articles
 
+- [Six Free AI Sites Handing Out Big Credit Bonuses!](/articles/2026-08-16-six-free-ai-sites.en.md)
 - [Three Stable Free AI Proxies with Daily Credits!](/articles/2026-08-15-three-free-ai-proxies.en.md)
 
 > Every article is available in both Chinese and English — use the language link at the top to switch.
