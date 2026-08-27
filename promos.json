@@ -1,30 +1,160 @@
 {
-  "_note": "面板按 6 小时读取一次的静态清单。字段含义见 auto-checkin 项目的 docs/promo-cards.md；改这个文件即可上线/下线一张卡。",
+  "_note": "面板按 6 小时读取一次的静态清单；一次只会显示优先级最高的一张，用户已经加过的站会被本地过滤掉。字段含义见 auto-checkin 项目的 docs/promo-cards.md。改完这个文件记得 purge：https://purge.jsdelivr.net/gh/BingLi37/Welfare-Express@promos/promos.json",
   "version": 1,
   "cards": [
     {
-      "id": "link-smoke-test",
-      "priority": 1,
+      "id": "seekai-2026-08",
+      "priority": 30,
       "hero": {
-        "title": "链路自检",
-        "subtitle": "这张卡来自远端清单",
-        "brand": "Welfare Express",
-        "badge": "自检"
+        "title": "注册送 $200",
+        "subtitle": "签到每天 $20",
+        "brand": "SeekAI",
+        "badge": "公益站"
       },
-      "title": "远程清单已生效",
-      "body": "看到这张卡，说明面板已经读到了远端清单里的这条数据。删掉这张卡，或把 expires_at 改成过去的日期，它就会下线。",
+      "title": "公益站：SeekAI",
+      "body": "Claude、GPT、GLM、DeepSeek、MiMo 都能用，签到每天 $20，加进面板就能自动签。",
       "cta": {
-        "label": "打开清单仓库 →",
-        "url": "https://github.com/BingLi37/Welfare-Express"
+        "label": "去注册 →",
+        "url": "https://seekai.cc/sign-up?aff=LEgt"
       },
       "target": {
-        "missing_hosts": ["never-imported.invalid"],
+        "missing_hosts": ["seekai.cc"],
         "min_panel_age_h": 12,
         "min_accounts": 1
       },
       "show": {
-        "cooldown_days": 1,
-        "max_shows": 0,
+        "cooldown_days": 14,
+        "max_shows": 6,
+        "expires_at": "2026-12-31"
+      }
+    },
+    {
+      "id": "agentrouter-2026-08",
+      "priority": 28,
+      "hero": {
+        "title": "注册送 $150",
+        "subtitle": "签到每天 $25",
+        "brand": "agentrouter",
+        "badge": "公益站"
+      },
+      "title": "公益站：agentrouter",
+      "body": "顶级 Claude 与 GPT 都有，签到每天 $25，面板可托管每日签到。",
+      "cta": {
+        "label": "去注册 →",
+        "url": "https://agentrouter.org/register?aff=fRlT"
+      },
+      "target": {
+        "missing_hosts": ["agentrouter.org"],
+        "min_panel_age_h": 12,
+        "min_accounts": 1
+      },
+      "show": {
+        "cooldown_days": 14,
+        "max_shows": 6,
+        "expires_at": "2026-12-31"
+      }
+    },
+    {
+      "id": "tabitoken-2026-08",
+      "priority": 24,
+      "hero": {
+        "title": "注册送 $120",
+        "subtitle": "支持每日签到",
+        "brand": "TaBiAi",
+        "badge": "公益站"
+      },
+      "title": "公益站：TaBiAi",
+      "body": "顶级 Claude 模型，注册送 $120，签到额度可以直接交给面板。",
+      "cta": {
+        "label": "去注册 →",
+        "url": "https://tabitoken.com/sign-up?aff=QTvl"
+      },
+      "target": {
+        "missing_hosts": ["tabitoken.com"],
+        "min_panel_age_h": 12,
+        "min_accounts": 1
+      },
+      "show": {
+        "cooldown_days": 14,
+        "max_shows": 6,
+        "expires_at": "2026-12-31"
+      }
+    },
+    {
+      "id": "gorouter-2026-08",
+      "priority": 20,
+      "hero": {
+        "title": "注册送 $70",
+        "subtitle": "支持每日签到",
+        "brand": "gorouter",
+        "badge": "公益站"
+      },
+      "title": "公益站：gorouter",
+      "body": "提供顶级 Claude 模型，注册送 $70，每日签到可托管。",
+      "cta": {
+        "label": "去注册 →",
+        "url": "https://gorouter.app/sign-up?aff=BrbO"
+      },
+      "target": {
+        "missing_hosts": ["gorouter.app"],
+        "min_panel_age_h": 12,
+        "min_accounts": 1
+      },
+      "show": {
+        "cooldown_days": 14,
+        "max_shows": 6,
+        "expires_at": "2026-12-31"
+      }
+    },
+    {
+      "id": "vyceai-2026-08",
+      "priority": 18,
+      "hero": {
+        "title": "注册送 $50",
+        "subtitle": "签到 $5–$50",
+        "brand": "VyceAI",
+        "badge": "半公益"
+      },
+      "title": "公益站：VyceAI",
+      "body": "Claude、Grok 4.6、GLM、DeepSeek、MiMo 都可用，每日签到 $5–$50。",
+      "cta": {
+        "label": "去注册 →",
+        "url": "https://vyceai.com/signup?ref=VYCE_B8K6UF"
+      },
+      "target": {
+        "missing_hosts": ["vyceai.com"],
+        "min_panel_age_h": 12,
+        "min_accounts": 1
+      },
+      "show": {
+        "cooldown_days": 14,
+        "max_shows": 6,
+        "expires_at": "2026-12-31"
+      }
+    },
+    {
+      "id": "hcnsec-2026-08",
+      "priority": 14,
+      "hero": {
+        "title": "送 14,600 积分",
+        "subtitle": "签到 50–500 积分",
+        "brand": "HcnSec API",
+        "badge": "公益站"
+      },
+      "title": "公益站：HcnSec API",
+      "body": "GLM、DeepSeek、MiMo 可用，注册没有门槛，签到每天 50–500 积分。",
+      "cta": {
+        "label": "去注册 →",
+        "url": "https://api.hcnsec.cn/sign-up?aff=glUK"
+      },
+      "target": {
+        "missing_hosts": ["hcnsec.cn"],
+        "min_panel_age_h": 12,
+        "min_accounts": 1
+      },
+      "show": {
+        "cooldown_days": 14,
+        "max_shows": 6,
         "expires_at": "2026-12-31"
       }
     }
