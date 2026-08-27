@@ -111,23 +111,23 @@
       }
     },
     {
-      "id": "vyceai-2030-08",
+      "id": "justwoke-2030-08",
       "priority": 18,
       "theme": "rose",
       "hero": {
-        "title": "注册送 $50",
-        "subtitle": "签到 $5–$50",
-        "brand": "VyceAI",
-        "badge": "半公益"
+        "title": "注册送 $70",
+        "subtitle": "签到 $30 ",
+        "brand": "justwoke",
+        "badge": "纯公益"
       },
-      "title": "公益站：VyceAI",
-      "body": "Claude、Grok 4.6、GLM、DeepSeek、MiMo 都可用，每日签到 $5–$50。",
+      "title": "公益站：justwoke",
+      "body": "Claude顶级模型随便花，签到一天大概能用五千万token，非常耐用！",
       "cta": {
         "label": "去注册 →",
-        "url": "https://vyceai.com/signup?ref=VYCE_B8K6UF"
+        "url": "https://api.justwoker.icu/register?aff=URiY"
       },
       "target": {
-        "missing_hosts": ["vyceai.com"],
+        "missing_hosts": ["justwoker.icu"],
         "min_panel_age_h": 12,
         "min_accounts": 1
       },
