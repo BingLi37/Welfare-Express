@@ -1,10 +1,11 @@
 {
-  "_note": "面板按 6 小时读取一次的静态清单；一次只会显示优先级最高的一张，用户已经加过的站会被本地过滤掉。字段含义见 auto-checkin 项目的 docs/promo-cards.md。改完这个文件记得 purge：https://purge.jsdelivr.net/gh/BingLi37/Welfare-Express@promos/promos.json",
+  "_note": "面板按 5 分钟读取一次的静态清单；用户已经加过的站会被本地过滤掉，剩下的每次加载随机出一张（priority 是权重，不是排名）。用户关掉一张后该张冷却 cooldown_days 天，再关一次翻倍（1→2→4→8），其他站照常出现。字段含义见 auto-checkin 项目的 docs/promo-cards.md。改完这个文件记得 purge：https://purge.jsdelivr.net/gh/BingLi37/Welfare-Express@promos/promos.json",
   "version": 1,
   "cards": [
     {
       "id": "seekai-2026-08",
       "priority": 30,
+      "theme": "violet",
       "hero": {
         "title": "注册送 $200",
         "subtitle": "签到每天 $20",
@@ -23,14 +24,15 @@
         "min_accounts": 1
       },
       "show": {
-        "cooldown_days": 14,
-        "max_shows": 6,
+        "cooldown_days": 1,
+        "max_shows": 0,
         "expires_at": "2026-12-31"
       }
     },
     {
       "id": "agentrouter-2026-08",
       "priority": 28,
+      "theme": "sky",
       "hero": {
         "title": "注册送 $150",
         "subtitle": "签到每天 $25",
@@ -49,14 +51,15 @@
         "min_accounts": 1
       },
       "show": {
-        "cooldown_days": 14,
-        "max_shows": 6,
+        "cooldown_days": 1,
+        "max_shows": 0,
         "expires_at": "2026-12-31"
       }
     },
     {
       "id": "tabitoken-2026-08",
       "priority": 24,
+      "theme": "amber",
       "hero": {
         "title": "注册送 $120",
         "subtitle": "支持每日签到",
@@ -75,14 +78,15 @@
         "min_accounts": 1
       },
       "show": {
-        "cooldown_days": 14,
-        "max_shows": 6,
+        "cooldown_days": 1,
+        "max_shows": 0,
         "expires_at": "2026-12-31"
       }
     },
     {
       "id": "gorouter-2026-08",
       "priority": 20,
+      "theme": "mint",
       "hero": {
         "title": "注册送 $70",
         "subtitle": "支持每日签到",
@@ -101,14 +105,15 @@
         "min_accounts": 1
       },
       "show": {
-        "cooldown_days": 14,
-        "max_shows": 6,
+        "cooldown_days": 1,
+        "max_shows": 0,
         "expires_at": "2026-12-31"
       }
     },
     {
       "id": "vyceai-2026-08",
       "priority": 18,
+      "theme": "rose",
       "hero": {
         "title": "注册送 $50",
         "subtitle": "签到 $5–$50",
@@ -127,14 +132,15 @@
         "min_accounts": 1
       },
       "show": {
-        "cooldown_days": 14,
-        "max_shows": 6,
+        "cooldown_days": 1,
+        "max_shows": 0,
         "expires_at": "2026-12-31"
       }
     },
     {
       "id": "hcnsec-2026-08",
       "priority": 14,
+      "theme": "indigo",
       "hero": {
         "title": "送 14,600 积分",
         "subtitle": "签到 50–500 积分",
@@ -153,8 +159,8 @@
         "min_accounts": 1
       },
       "show": {
-        "cooldown_days": 14,
-        "max_shows": 6,
+        "cooldown_days": 1,
+        "max_shows": 0,
         "expires_at": "2026-12-31"
       }
     }
