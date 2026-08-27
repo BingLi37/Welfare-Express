@@ -1,0 +1,32 @@
+{
+  "_note": "面板按 6 小时读取一次的静态清单。字段含义见 auto-checkin 项目的 docs/promo-cards.md；改这个文件即可上线/下线一张卡。",
+  "version": 1,
+  "cards": [
+    {
+      "id": "link-smoke-test",
+      "priority": 1,
+      "hero": {
+        "title": "链路自检",
+        "subtitle": "这张卡来自远端清单",
+        "brand": "Welfare Express",
+        "badge": "自检"
+      },
+      "title": "远程清单已生效",
+      "body": "看到这张卡，说明面板已经读到了远端清单里的这条数据。删掉这张卡，或把 expires_at 改成过去的日期，它就会下线。",
+      "cta": {
+        "label": "打开清单仓库 →",
+        "url": "https://github.com/BingLi37/Welfare-Express"
+      },
+      "target": {
+        "missing_hosts": ["never-imported.invalid"],
+        "min_panel_age_h": 12,
+        "min_accounts": 1
+      },
+      "show": {
+        "cooldown_days": 1,
+        "max_shows": 0,
+        "expires_at": "2026-12-31"
+      }
+    }
+  ]
+}
