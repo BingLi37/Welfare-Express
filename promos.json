@@ -3,7 +3,7 @@
   "version": 1,
   "cards": [
     {
-      "id": "seekai-2026-08",
+      "id": "seekai-2030-08",
       "priority": 30,
       "theme": "violet",
       "hero": {
@@ -26,11 +26,11 @@
       "show": {
         "cooldown_days": 1,
         "max_shows": 0,
-        "expires_at": "2026-12-31"
+        "expires_at": "2030-12-31"
       }
     },
     {
-      "id": "agentrouter-2026-08",
+      "id": "agentrouter-2030-08",
       "priority": 28,
       "theme": "sky",
       "hero": {
@@ -53,11 +53,11 @@
       "show": {
         "cooldown_days": 1,
         "max_shows": 0,
-        "expires_at": "2026-12-31"
+        "expires_at": "2030-12-31"
       }
     },
     {
-      "id": "tabitoken-2026-08",
+      "id": "tabitoken-2030-08",
       "priority": 24,
       "theme": "amber",
       "hero": {
@@ -80,11 +80,11 @@
       "show": {
         "cooldown_days": 1,
         "max_shows": 0,
-        "expires_at": "2026-12-31"
+        "expires_at": "2030-12-31"
       }
     },
     {
-      "id": "gorouter-2026-08",
+      "id": "gorouter-2030-08",
       "priority": 20,
       "theme": "mint",
       "hero": {
@@ -107,11 +107,11 @@
       "show": {
         "cooldown_days": 1,
         "max_shows": 0,
-        "expires_at": "2026-12-31"
+        "expires_at": "2030-12-31"
       }
     },
     {
-      "id": "vyceai-2026-08",
+      "id": "vyceai-2030-08",
       "priority": 18,
       "theme": "rose",
       "hero": {
@@ -134,11 +134,38 @@
       "show": {
         "cooldown_days": 1,
         "max_shows": 0,
-        "expires_at": "2026-12-31"
+        "expires_at": "2030-12-31"
       }
     },
     {
-      "id": "hcnsec-2026-08",
+      "id": "test-2030-08",
+      "priority": 18,
+      "theme": "rose",
+      "hero": {
+        "title": "注册送 $5000",
+        "subtitle": "签到 $5–$50",
+        "brand": "VyceAI",
+        "badge": "半公益"
+      },
+      "title": "公益站：test",
+      "body": "Claude、Grok 4.6、GLM、DeepSeek、MiMo 都可用，每日签到 $5–$50。",
+      "cta": {
+        "label": "去注册 →",
+        "url": "https://vyceai.com/signup?ref=VYCE_B8K6UF"
+      },
+      "target": {
+        "missing_hosts": ["vyceai.com"],
+        "min_panel_age_h": 12,
+        "min_accounts": 1
+      },
+      "show": {
+        "cooldown_days": 1,
+        "max_shows": 0,
+        "expires_at": "2030-12-31"
+      }
+    },
+    {
+      "id": "hcnsec-2030-08",
       "priority": 14,
       "theme": "indigo",
       "hero": {
@@ -161,7 +188,7 @@
       "show": {
         "cooldown_days": 1,
         "max_shows": 0,
-        "expires_at": "2026-12-31"
+        "expires_at": "2030-12-31"
       }
     }
   ]
