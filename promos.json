@@ -137,33 +137,7 @@
         "expires_at": "2030-12-31"
       }
     },
-    {
-      "id": "test-2030-08",
-      "priority": 18,
-      "theme": "rose",
-      "hero": {
-        "title": "注册送 $5000",
-        "subtitle": "签到 $5–$50",
-        "brand": "VyceAI",
-        "badge": "半公益"
-      },
-      "title": "公益站：test",
-      "body": "Claude、Grok 4.6、GLM、DeepSeek、MiMo 都可用，每日签到 $5–$50。",
-      "cta": {
-        "label": "去注册 →",
-        "url": "https://vyceai.com/signup?ref=VYCE_B8K6UF"
-      },
-      "target": {
-        "missing_hosts": ["vyceai.com"],
-        "min_panel_age_h": 12,
-        "min_accounts": 1
-      },
-      "show": {
-        "cooldown_days": 1,
-        "max_shows": 0,
-        "expires_at": "2030-12-31"
-      }
-    },
+   
     {
       "id": "hcnsec-2030-08",
       "priority": 14,
