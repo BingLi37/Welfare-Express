@@ -1,4 +1,4 @@
-# 六家送大额额度的免费 AI 站！
+# 七家送大额额度的免费 AI 站！
 
 > 更新时间：2026-08-26
 > 状态：有效
@@ -36,6 +36,11 @@
 👇
 [tabitoken](https://tabitoken.com/sign-up?aff=QTvl)
 
+## kktoken
+
+注册送 $120，同样是顶级 Claude 模型，支持每日签到：
+👇
+[kktoken](https://kktoken.cc/sign-up?aff=YE8m)
 
 ## HcnSec API
 
@@ -45,7 +50,7 @@
 
 ## SeekAI
 
-新账号送 $200，签到每天再送 $20。Claude、GPT、GLM、DeepSeek、MiMo 都能用：
+新账号送 $200，签到每天再送 $20。 不稳定但官方有在更新新渠道信息：
 👇
 [seekai.cc](https://seekai.cc/sign-up?aff=LEgt)
 
