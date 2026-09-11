@@ -7,7 +7,7 @@
 
 WorkBuddy 的模型列表里，DeepSeek V4.1 Flash 现在标着 **Free now**，计费是 0.00x，也就是不花额度就能直接用。日常的写文案、整理表格、批量改代码这些活，它完全够用。
 
-![模型选择器里的 DeepSeek-V4.1-Flash，右侧标注 Free now](/assets/2026-09-12-deepseek-v4-1-flash.png)
+![模型选择器里的 DeepSeek-V4.1-Flash，右侧标注 Free now](../assets/2026-09-12-deepseek-v4-1-flash.png)
 
 ## 怎么用
 

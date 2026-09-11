@@ -7,7 +7,7 @@
 
 DeepSeek V4.1 Flash now shows up as **Free now** in WorkBuddy's model list — it bills at 0.00x, so you can use it without spending any credits. For everyday work like drafting copy, cleaning up spreadsheets, or bulk-editing code, it's more than enough.
 
-![DeepSeek-V4.1-Flash in the model picker, marked Free now](/assets/2026-09-12-deepseek-v4-1-flash.png)
+![DeepSeek-V4.1-Flash in the model picker, marked Free now](../assets/2026-09-12-deepseek-v4-1-flash.png)
 
 ## How to use it
 
