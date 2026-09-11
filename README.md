@@ -12,7 +12,8 @@
 
 ## 文章
 
-- [六家送大额额度的免费 AI 站！](/articles/2026-08-16-six-free-ai-sites.zh.md)
+- [免费使用 DeepSeek V4.1 Flash](/articles/2026-09-12-free-deepseek-v4-1-flash.zh.md)
+- [七家送大额额度的免费 AI 站！](/articles/2026-08-16-six-free-ai-sites.zh.md)
 - [三个稳定公益站，日粮稳定！](/articles/2026-08-15-three-free-ai-proxies.zh.md)
 
 > 每篇都提供中英双语，点击文章顶部的语言链接即可切换。
