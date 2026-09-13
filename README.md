@@ -12,6 +12,7 @@
 
 ## 文章
 
+- [Conduit：注册直接送 $500，TG 机器人一键开通](/articles/2026-09-13-conduit-tg-bot-500-bonus.zh.md)
 - [免费使用 DeepSeek V4.1 Flash](/articles/2026-09-12-free-deepseek-v4-1-flash.zh.md)
 - [七家送大额额度的免费 AI 站！](/articles/2026-08-16-six-free-ai-sites.zh.md)
 - [三个稳定公益站，日粮稳定！](/articles/2026-08-15-three-free-ai-proxies.zh.md)
