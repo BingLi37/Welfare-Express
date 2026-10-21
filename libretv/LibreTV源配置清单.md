@@ -9,10 +9,17 @@
 3. 粘贴本仓库 `LibreTV-sources.json` 的 raw 链接，点击 **订阅**
 4. 点播源自动勾选、直播源自动启用，即刻可用
 
-**订阅地址**（上传后请替换为你的实际链接）：
+**订阅地址**（任选其一；国内访问建议优先使用备选线路）：
 
-```
+```text
+# ① 主地址（GitHub raw）
 https://raw.githubusercontent.com/BingLi37/Welfare-Express/main/libretv/LibreTV-sources.json
+
+# ② 国内备选（jsdelivr Fastly 节点）
+https://fastly.jsdelivr.net/gh/BingLi37/Welfare-Express@main/libretv/LibreTV-sources.json
+
+# ③ 国内备选（gh-proxy 加速代理）
+https://gh-proxy.com/https://raw.githubusercontent.com/BingLi37/Welfare-Express/main/libretv/LibreTV-sources.json
 ```
 
 也可以直接填任意 TVBOX 配置地址或本合集内列出的其他订阅（LibreTV 会自动识别格式并导入其中可用的源）。
